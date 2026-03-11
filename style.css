@@ -1,0 +1,41 @@
+/* google fonte */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root { 
+    --cor-principal: #000000;
+    --cor-ciano: #00c9c8;
+    --cor-cianoclaro: #bffcf9;
+    --cor-verde: #47817f;
+    --cor-preto: #000000;
+    --cor-branca: #ffffff;
+
+}
+body {
+    font-family: 'Playfair Display', sans-serif;
+}
+#body {
+    background-color: var(--cor-principal);
+}
+.lead {
+    font-weight: 700;
+}
+#rodape {
+    background-color: var(--cor-preto);
+}
+
+#ancora {
+    text-decoration: none;
+    color: var(--cor-branca);
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+#ancora:hover {
+    color: var(--cor-ciano)
+    cursor: pointer;
+    text-decoration underline;
+}
+.habilidades {
+    background-color: var(--cor-branca) !important;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
