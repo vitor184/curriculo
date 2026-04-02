@@ -19,6 +19,10 @@ body {
 .lead {
     font-weight: 700;
 }
+#body {
+    background-color: var(--cor-principal);
+    color: var(--cor-branca);
+}
 #rodape {
     background-color: var(--cor-preto);
 }
