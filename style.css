@@ -38,8 +38,9 @@ body {
     cursor: pointer;
     text-decoration underline;
 }
-.habilidades {
+.habilidades:hover .badge {
     background-color: var(--cor-branca) !important;
+    color: var(--cor-preto);
     transform: scale(1.05);
     transition: 0.3s;
 }
